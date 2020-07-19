@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome — introduction and upcoming posts
+title: Introduction and upcoming posts
 categories: [Organization]
 ---
 
