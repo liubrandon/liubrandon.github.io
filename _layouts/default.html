@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="{{site.avatar}}">
   </head>
 
   <body>
@@ -19,8 +19,7 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
-
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img height="60" width="60" src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
             <div class="site-info">
               <h1 class="site-name" style="font-size:20px;"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
               <p class="site-description">{{ site.description }}</p> 
