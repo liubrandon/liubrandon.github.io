@@ -4,7 +4,7 @@ title: Introduction + upcoming posts
 categories: [Organization]
 ---
 
-This summer, I've had the great pleasure of working as a Research Assistant to Prof. Lin Zhong at the [Yale Efficient Computing Lab](http://yecl.org/). My project relates to wireless networks, and in particular, 5G and massive multiple-input multiple-output (MIMO). Massive MIMO involves using multiple antennas at the transmitter and reciever to improve throughput and spectral efficiency, and it's seen as a key technology enabling 5G mobile networks.
+This summer, I've had the pleasure of working as a Research Assistant to Prof. Lin Zhong and Jian Ding at the [Yale Efficient Computing Lab](http://yecl.org/). My project relates to wireless networks, and in particular, 5G and massive multiple-input multiple-output (MIMO). Massive MIMO involves using multiple antennas at the transmitter and reciever to improve throughput and spectral efficiency, and it's seen as a key technology enabling 5G mobile networks.
 
 For the last few years, [Jian Ding](https://www.owlnet.rice.edu/~jianding/) has been developing Millipede, a new software approach to real-time massive MIMO baseband processing. Massive MIMO baseband processing is computationally intensive and is typically done by specialized hardware such as [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array). Because FPGAs are installed per base station, updating the technology (say, for the transition from LTE to 5G) currently involves going to each network tower and physcially replacing hardware — an expensive and slow process.
 
