@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Brandon Liu and I'm a junior at Yale University studying Computer Science. I hope the posts I share here may help out others trying to learn similar things that I've been interested in/worked on.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My blog is built with [Jekyll](https://github.com/jekyll), and you can find its full source code on [GitHub](https://github.com/liubrandon/liubrandon.github.io).
