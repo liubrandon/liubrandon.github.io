@@ -6,7 +6,7 @@ layout: default
   <h1 style="text-align:left">{{ page.title }}</h1>
 
   <div>
-    <p class="author_title" style="text-align:left">{% include read-time.html %} {{ page.date | date: "%B %e, %Y" }}  &nbsp;|&nbsp;
+    <p class="author_title" style="text-align:left">{% include read-time.html %} {{ page.date | date: "%B %e, %Y" }}<br>
       Filed under:
       {% if post %}
       {% assign categories = post.categories %}
