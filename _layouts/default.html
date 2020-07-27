@@ -21,17 +21,16 @@
       <header class="masthead clearfix">
         <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img height="58" width="58"
             src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
-        <div class="site-info">
+        <div class="fixed-header">
           <h1 class="site-name" style="font-size:20px;"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
           <!-- <p class="site-description">{{ site.description }}</p> -->
+          <nav>
+            <!-- <a href="{{ site.baseurl }}/">Home</a> -->
+            <a href="{{ site.baseurl }}/about">About</a>
+            <!-- <a href="{{ site.baseurl }}/search">Search</a> -->
+            <a><span id="subscribeButton">Subscribe</span></a>
+          </nav>
         </div>
-
-        <nav>
-          <!-- <a href="{{ site.baseurl }}/">Home</a> -->
-          <a href="{{ site.baseurl }}/about">About</a>
-          <!-- <a href="{{ site.baseurl }}/search">Search</a> -->
-          <a><span id="subscribeButton">Subscribe</span></a>
-        </nav>
       </header>
     </div>
     <div id="subscribeModal" class="modal">
