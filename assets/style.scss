@@ -176,6 +176,11 @@ span[data-pullquote]:before {
   text-align: center;
 }
 
+// Make home screen post links highlight black instead of default blue
+.post > a {
+  color: inherit;
+}
+
 a {
   color: $blue;
   text-decoration: none;
@@ -261,7 +266,6 @@ p > img {
 /*********************/
 
 .wrapper-masthead {
-  margin-bottom: 25px;
   position: fixed;
   top: 0;
   max-width: 100%;
@@ -270,9 +274,9 @@ p > img {
 
 .masthead {
   z-index: -2;
-  max-width: 100%;
   width: 100%;
   padding: 7px 0;
+  height: 48px;
   background: rgba(0,0,0,.85);
   // border-bottom: 1px solid $lightGray;
   @include mobile {
@@ -310,7 +314,7 @@ p > img {
     font-size: 16px !important;
     font-weight: 300 !important;
     padding-left: 18px;
-
+    padding-top: 5px;
   }
 }
 
@@ -318,21 +322,20 @@ nav {
   position: relative;
   z-index: 1;
   float: right;
-  padding-right: 30px;
   font-family: $helveticaNeue;
-  font-size: 18px;
-
+  padding: 3px 30px 0 0;
+  font-size: 16px;
   @include mobile {
     font-size: 15px !important;
     padding-right: 18px !important;
-    padding-top: 3px;
+    padding-top: 4px;
   }
 
   a {
     margin-left: 20px;
     color: $white;
     text-align: right;
-    font-weight: 300;
+    font-weight: 410;
     letter-spacing: .75px;
 
     @include mobile {
@@ -394,6 +397,9 @@ nav {
 .wrapper-main {
   padding-top: 110px;
   padding-bottom: 134px;
+  @include mobile {
+    padding-top: 65px !important;
+  }
 }
 
 .wrapper-footer {

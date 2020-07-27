@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Introduction + upcoming posts
-categories: [Organization]
+categories: [Misc]
+updated_date: 
 ---
 
 This summer, I've had the pleasure of working as a Research Assistant to Prof. Lin Zhong and Jian Ding at the [Yale Efficient Computing Lab](http://yecl.org/). My project relates to wireless networks, and in particular, 5G and massive multiple-input multiple-output (MIMO). Massive MIMO involves using multiple antennas at the transmitter and reciever to improve throughput and spectral efficiency, and it's seen as a key technology enabling 5G mobile networks.

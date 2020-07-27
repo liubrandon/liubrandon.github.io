@@ -6,7 +6,11 @@ layout: default
   <h1 style="text-align:left">{{ page.title }}</h1>
 
   <div>
-    <p class="author_title" style="text-align:left">{% include read-time.html %} {{ page.date | date: "%B %e, %Y" }}<br>
+    <p class="author_title" style="text-align:left">{% include read-time.html %} Published {{ page.date | date: "%B %e, %Y" }}.
+      {% if page.updated_date %}
+      Updated {{ page.updated_date | date: "%b %-d, %Y" }}.
+      {% endif %}
+      <br>
       Filed under:
       {% if post %}
       {% assign categories = post.categories %}
@@ -14,13 +18,9 @@ layout: default
       {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>{% if forloop.last %}.{% else %},{% endif %}
       {% endfor %}
     </p>
-    {% if page.last_modified_at %}
-    <p class="author_title" style="text-align:left" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
-    {% endif %}
   </div>
     
   <div class="entry">
