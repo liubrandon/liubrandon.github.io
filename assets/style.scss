@@ -4,9 +4,9 @@
 //
 // IMPORTS
 //
-
 @import "reset";
 @import "variables";
+@import "modal";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -181,7 +181,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    text-decoration: underline;
   }
 }
 
@@ -266,93 +266,59 @@ p > img {
 
 .wrapper-masthead {
   margin-bottom: 25px;
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
+  max-width: 100%;
+  width: 100%;
+  padding: 7px 0;
+  background: rgba(0,0,0,.85);
+  // border-bottom: 1px solid $lightGray;
   @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    //text-align: center;
   }
 }
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
-  letter-spacing: 1px;
+  //letter-spacing: 0px;
   text-align: left;
-
+  padding-left: 30px;
   @include mobile {
-    text-align: center;
-  }
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
+    padding-left: 5px;
+    font-weight: 200;
   }
 }
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  padding-right: 30px;
+  // margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+    padding-right: 5px;
+    float: right;
+    //display: block;
+    font-size: 14px;
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
   }
 }
 
@@ -407,6 +373,7 @@ nav {
 }
 
 .wrapper-main {
+  padding-top: 110px;
   padding-bottom: 134px;
 }
 
@@ -414,7 +381,7 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 89px;
+  height: 85px;
   background-color: $lightGray;
 }
 
@@ -433,17 +400,6 @@ body:after {
     content: '';
 }
 
-#bar {
-    background: #000;
-    height: 7px;
-    background-size: cover;
-    background-position: left 60%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1000;
-}
 
 .post h1{
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -466,7 +422,7 @@ body:after {
 .author_title{
   text-align: center;
   color: #939aa1;
-  letter-spacing: 2px;
+  letter-spacing: .5px;
 }
 
 .post_date{
@@ -700,9 +656,9 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #4CAF50;
-  border-radius: 50px;
-  color: #fff;
+  // background-color: #4CAF50;
+  // border-radius: 50px;
+  color: $blue;
 }
 
 .pagination a, .pagination span {
@@ -1135,7 +1091,6 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
