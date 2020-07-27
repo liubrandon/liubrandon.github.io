@@ -260,10 +260,6 @@ p > img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
 .wrapper-masthead {
   margin-bottom: 25px;
   position: fixed;
@@ -273,6 +269,7 @@ p > img {
 }
 
 .masthead {
+  z-index: -2;
   max-width: 100%;
   width: 100%;
   padding: 7px 0;
@@ -283,17 +280,23 @@ p > img {
   }
 }
 
-// .fixed-header {
-//   float: left;
-
-//   @include mobile {
-//     float: none;
-//     display: block;
-//     margin: 0 auto;
-//   }
-// }
+#reading-progress {
+  z-index: 0;
+  background-color: $blue;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate(-100vw,0);
+  will-change: transform;
+  pointer-events: none;
+}
 
 .site-name {
+  //position and z-index are for the layer order
+  position: relative;
+  z-index: 1;
   margin: 0;
   color: $white;
   cursor: pointer;
@@ -312,6 +315,8 @@ p > img {
 }
 
 nav {
+  position: relative;
+  z-index: 1;
   float: right;
   padding-right: 30px;
   font-family: $helveticaNeue;

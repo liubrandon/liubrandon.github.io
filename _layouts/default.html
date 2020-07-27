@@ -13,23 +13,20 @@
   <meta name="theme-color" content="#000000">
   <link rel="icon" type="image/png" sizes="256x256" href="{{site.avatar}}">
   <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1060eb245e99051a3ac245799/2518d5f5e3335976aaccee845.js");</script>
+  <script async="" defer="" src="/scripts/main.js"></script>
 </head>
 
 <body>
   <div class="wrapper-container">
     <div class="wrapper-masthead">
       <header class="masthead clearfix">
-        <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img height="58" width="58"
-            src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
         <div class="fixed-header">
           <h1 class="site-name" style="font-size:20px;"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
-          <!-- <p class="site-description">{{ site.description }}</p> -->
           <nav>
-            <!-- <a href="{{ site.baseurl }}/">Home</a> -->
             <a href="{{ site.baseurl }}/about">About</a>
-            <!-- <a href="{{ site.baseurl }}/search">Search</a> -->
             <a><span id="subscribeButton">Subscribe</span></a>
           </nav>
+          <div id="reading-progress" aria-hidden="false" style="transform: translate(-100vw);"></div>
         </div>
       </header>
     </div>
