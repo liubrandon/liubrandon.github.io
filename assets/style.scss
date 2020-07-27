@@ -279,7 +279,17 @@ p > img {
   background: rgba(0,0,0,.85);
   // border-bottom: 1px solid $lightGray;
   @include mobile {
-    //text-align: center;
+    text-align: center;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -294,8 +304,17 @@ p > img {
   text-align: left;
   padding-left: 30px;
   @include mobile {
-    padding-left: 5px;
-    font-weight: 200;
+    text-align: center;
+  }
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
   }
 }
 
@@ -307,10 +326,10 @@ nav {
   font-size: 18px;
 
   @include mobile {
-    padding-right: 5px;
-    float: right;
-    //display: block;
-    font-size: 14px;
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
   }
 
   a {
@@ -319,6 +338,11 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
   }
 }
 
