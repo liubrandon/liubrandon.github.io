@@ -1,4 +1,4 @@
-// https://www.industrialempathy.com/js/main.js?hash=d0a56587b8
+// Reading indicator code from Malte Ubl https://www.industrialempathy.com/js/main.js?hash=d0a56587b8
 if (window.ResizeObserver) {
   var progress = document.getElementById("reading-progress");
 

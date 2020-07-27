@@ -22,7 +22,7 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $helveticaNeue;
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -179,6 +179,10 @@ span[data-pullquote]:before {
 // Make home screen post links highlight black instead of default blue
 .post > a {
   color: inherit;
+}
+
+.post > .read-more {
+  color: $blue;
 }
 
 a {
@@ -415,19 +419,19 @@ footer {
   text-align: center;
 }
 
-body:after {
-    background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
-    width: 100%;
-    height: 5px;
-    top: 0;
-    position: absolute;
-    left: 0;
-    content: '';
-}
+// body:after {
+//     background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
+//     width: 100%;
+//     height: 5px;
+//     top: 0;
+//     position: absolute;
+//     left: 0;
+//     content: '';
+// }
 
 
 .post h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $helveticaNeue;
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
@@ -436,7 +440,7 @@ body:after {
 }
 
 .page h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $helveticaNeue;
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
@@ -608,7 +612,7 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $helveticaNeue;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
@@ -806,7 +810,9 @@ Modules - reusable parts of our design
     margin-left: -30px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
