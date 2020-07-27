@@ -1,10 +1,10 @@
 .svg-icon {
   width: 24px;
   height: 24px;
-  margin: 22px 9px 0 9px;
+  margin: 23px 9px 0 9px;
   display: inline-block;
+ }
 
-  &.github        { background-image: url(../images/icon-github.svg); }
-  &.linkedin      { background-image: url(../images/icon-linkedin.svg); }
-  &.instagram     { background-image: url(../images/icon-instagram.svg); }
+ .svg-icon:hover, .svg-icon:active {
+   fill: $blue;
  }

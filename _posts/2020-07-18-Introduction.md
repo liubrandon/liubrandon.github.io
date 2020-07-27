@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introduction + upcoming posts
-categories: [Misc]
+title: Yale research + upcoming posts
+categories: [Computing, Misc]
 updated_date: 
 ---
 
@@ -13,7 +13,7 @@ The key idea of performing baseband processing in software is that rather than p
 
 To accomplish this, the software must run extremely fast — fast enough that it meets the latency standards for 5G New Radio and essentially as if everything was in real time. Every calculation and operation performed by the software must be as fast as the underlying hardware can support (in this case, general purpose processors). That is where my sub-project comes into play: implement a version of matrix-vector multiplication that is faster than the fastest public implementation out there, currently the proprietary one provided by Intel's Math Kernel Library (MKL).
 
-I hope to distill some of the key topics I've learned into posts that may be interesting (and ideally helpful) to other students, researchers or professionals out there. Below are some posts and topic areas I'm planning to write about:
+I hope to write about some of the key topics I've learned in a way that's interesting (and ideally helpful) to other students, researchers or professionals out there. Below are some posts and topic areas I'm planning to write about:
 
 ## Planned posts
 
