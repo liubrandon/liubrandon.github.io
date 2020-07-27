@@ -304,6 +304,7 @@ p > img {
   text-align: left;
   padding-left: 30px;
   @include mobile {
+    padding-left: 7px;
     //text-align: center;
   }
 }
@@ -410,7 +411,7 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  //padding: 20px 0;
   text-align: center;
 }
 
