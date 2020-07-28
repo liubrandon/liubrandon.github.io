@@ -65,7 +65,7 @@ button {
     font-size: 18px;
     letter-spacing: .5px;
     @include mobile {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -82,4 +82,20 @@ button:not([disabled]) {
 button:not([disabled]):hover {
     background: $blue;
     color: #FFF
+}
+
+[type=button],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
 }
