@@ -7,6 +7,6 @@ permalink: /about/
 
 Some of my interests include points/miles travel, food/drink, personal finance, computing, and entrepreneurship — I write about these topics occasionally (mostly computing).
 
-Currently, I am a Research Assistant at the [Yale Efficient Computing Lab](http://yecl.org/) headed by Lin Zhong. Previously, I was the Restaurant Critic for the [Yale Daily News](https://yaledailynews.com/blog/author/brandonliu/) and covered New Haven food and drink with Kofi Ansong.
+Currently, I am a Research Assistant at the [Yale Efficient Computing Lab](http://yecl.org/) headed by Lin Zhong. Previously, I was Restaurant Critic for the [Yale Daily News](https://yaledailynews.com/blog/author/brandonliu/) and covered New Haven food and drink.
 
-You can find this blog's source code on my [GitHub](https://github.com/liubrandon/liubrandon.github.io), and my other social  links are below.
+You can find this blog's source code on my [GitHub](https://github.com/liubrandon/liubrandon.github.io), and my other social links are below.

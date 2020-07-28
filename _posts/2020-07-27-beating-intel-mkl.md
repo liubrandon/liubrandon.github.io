@@ -8,7 +8,7 @@ The bulk of my research this summer centered around designing and implementing a
 
 ## Intel MKL Background
 
-I thought it would be helpful to first go over some high-level knowledge about Intel MKL and in particular, BLAS, that I would have found useful when starting out (being totally new to the library). Also, I'll simply refer to Intel MKL as MKL from now on.
+I thought it would be helpful to first go over some high-level info about Intel MKL and in particular, BLAS, that I would have found useful when starting out (being totally new to the library). Also, I'll simply refer to Intel MKL as MKL from now on.
 
 * MKL is a free library that provides optimized math routines (functions) for BLAS, LAPACK, ScaLAPACK, sparse solvers, fast Fourier transforms, and other problems.
 
