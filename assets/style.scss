@@ -189,6 +189,12 @@ span[data-pullquote]:before {
 // Make home screen post links highlight black instead of default blue
 .post > a {
   color: inherit;
+  text-decoration: none !important;
+}
+
+.homepage-titles:hover, .homepage-titles:active {
+  text-decoration: none !important;
+  color: $blue !important;
 }
 
 .post > .read-more {

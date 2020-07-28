@@ -1,9 +1,12 @@
+// .on() constantly polls the Firebase database for the most current share count
+// Then updates the number on the webpage upon a change to reflect that latest value
 var shareButton = document.getElementById("shareButton");
 var postRef = firebase.database().ref("posts/" + shareButton.className);
 postRef.on('value', function(snapshot){
   shareButton.querySelector("b").textContent = snapshot.val().shareCount;
 });
 
+// Uses post date as the post id. Assumes I'll never post two posts on the same day
 function incrementShareCount(pagedate) {
   var postRef = firebase.database().ref("posts/" + pagedate);
   postRef.transaction(function(post) {

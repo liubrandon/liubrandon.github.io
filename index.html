@@ -6,7 +6,7 @@ layout: default
   {% for post in paginator.posts %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1 style="text-align:left">{{ post.title }}</h1>
+        <h1 class="homepage-titles" style="text-align:left">{{ post.title }}</h1>
       </a>
       <p class="post_date" style="text-align:left">{{ post.date | date: "%B %e, %Y" }}</p>
       <div class="entry">
