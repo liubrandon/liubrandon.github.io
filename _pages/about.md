@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![Me in Granada in 2019](../images/brandonliu-about.jpg){: .img-right} I am a junior at Yale University studying Computer Science, and this is my personal blog.
+![Me in Granada in 2019](../images/brandonliu-about.jpg){:.img-right} I am a junior at Yale University studying Computer Science, and this is my personal blog.
 
 Some of my interests include points/miles travel, food/drink, personal finance, computing, and entrepreneurship — I write about these topics occasionally (mostly computing).
 

@@ -1,4 +1,60 @@
-// Reading indicator code from Malte Ubl https://www.industrialempathy.com/js/main.js?hash=d0a56587b8
+var shareButton = document.getElementById("shareButton");
+var postRef = firebase.database().ref("posts/" + shareButton.className);
+postRef.on('value', function(snapshot){
+  shareButton.querySelector("b").textContent = snapshot.val().shareCount;
+});
+
+function incrementShareCount(pagedate) {
+  var postRef = firebase.database().ref("posts/" + pagedate);
+  postRef.transaction(function(post) {
+    if(post == null) {
+      return {shareCount: 0};
+    } else {
+      post.shareCount++;
+      return post;
+    }
+  });
+}
+
+// Share function and reading indicator code from Malte Ubl https://www.industrialempathy.com/js/main.js?hash=d0a56587b8
+function tweet(url) {
+  open(
+    "https://twitter.com/intent/tweet?url=" + encodeURIComponent(url),
+    "_blank"
+  );
+}
+
+function share(anchor) {
+  var url = anchor.getAttribute("href");
+  event.preventDefault();
+  if (navigator.share) {
+    navigator.share({
+      url: url,
+    });
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(url);
+    message("Article URL copied to clipboard.");
+  } else {
+    tweet(url);
+  }
+}
+
+function clap(button) {
+  button.querySelector("b").textContent =
+    parseInt(button.querySelector("b").textContent, 10) + 1;
+  incrementShareCount(button.className);
+  share(button);
+}
+
+function message(msg) {
+  var dialog = document.getElementById("message");
+  dialog.textContent = msg;
+  dialog.setAttribute("open", "");
+  setTimeout(function () {
+    dialog.removeAttribute("open");
+  }, 3000);
+}
+
 if (window.ResizeObserver) {
   var progress = document.getElementById("reading-progress");
 

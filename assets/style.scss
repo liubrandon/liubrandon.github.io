@@ -8,6 +8,7 @@
 @import "variables";
 @import "modal";
 @import "images";
+@import "share-widget";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -46,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 
   @include mobile {
     line-height: 1.4;
@@ -64,17 +65,25 @@ h2 {
   font-size: 24px;
 }
 
-@media (min-width: 769px){
-	.post h2::before, .post h2::after {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 46px;
-	    height: 1px;
-	    background: rgb(192, 211, 218);
-	    margin: 0px 30px;
-	}
+.post h2::before {
+  display: block; 
+  content: " "; 
+  margin-top: -55px; 
+  height: 55px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
+// @media (min-width: 569px){
+// 	.post h2::before, .post h2::after {
+// 	    content: "";
+// 	    display: inline-block;
+// 	    vertical-align: middle;
+// 	    width: 46px;
+// 	    height: 1px;
+// 	    background: rgb(192, 211, 218);
+// 	    margin: 0px 30px;
+// 	}
+// }
 
 h3 {
   font-size: 20px;

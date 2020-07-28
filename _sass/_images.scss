@@ -6,3 +6,12 @@
         width: 200px;
     }
 }
+
+.img-left {
+    width: 315px;
+    float: left;
+    margin-right: 1em;
+    @include mobile {
+        width: 200px;
+    }
+}
