@@ -74,17 +74,17 @@ button:active {
     transform: scale(1.2)
 }
 
-button:hover {
-    background: #d9d9d9;
+// button:hover {
+//     background: #d9d9d9;
+//     color: #FFF
+// }
+
+button {
+    background: #5188b8;
     color: #FFF
 }
 
-button:not([disabled]) {
-    background: #5188b8;
-    color: #f2f2f2
-}
-
-button:not([disabled]):hover {
+button:hover {
     background: $blue;
     color: #FFF
 }
