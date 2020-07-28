@@ -5,12 +5,9 @@ share-widget {
     opacity: .9
 }
 
-share-widget:hover {
-    opacity: .95 !important;
-}
-
 dialog {
-    // font-family: $helveticaNeue;
+    margin-top: 50px;
+    font-family: $helveticaNeue;
     color: black;
     border: 0px;
     border-radius: 5px;
@@ -39,10 +36,10 @@ share-widget button {
     width: 100px;
     height: 90px;
     margin: 0;
-    // @include mobile {
-    //     width: 80px;
-    //     height: 72px;
-    // }
+    @include mobile {
+        width: 80px;
+        height: 72px;
+    }
 }
 
 share-widget button:active {
