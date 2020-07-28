@@ -34,6 +34,18 @@ share-widget button {
     margin: 0;
 }
 
+button,
+select {
+    border-radius: .3em;
+    max-width: 100%
+}
+
+button+label,
+label+*,
+select+label {
+    page-break-before: always
+}
+
 button {
     background: #f2f2f2;
     color: #191919;
@@ -52,6 +64,10 @@ button {
     @include mobile {
         font-size: 16px;
     }
+}
+
+button {
+    overflow: visible
 }
 
 button:active {
