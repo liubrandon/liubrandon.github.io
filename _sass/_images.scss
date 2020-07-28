@@ -1,0 +1,8 @@
+.img-right {
+    width: 315px;
+    float: right;
+    margin-left: 1em;
+    @include mobile {
+        width: 200px;
+    }
+}

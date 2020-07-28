@@ -3,9 +3,9 @@ layout: page
 title: About me
 permalink: /about/
 ---
-![Me in Granada in 2019](../images/brandonliu-about.jpg){:width="305px" style="float:right; margin-left:1em;"} I am a junior at Yale University studying Computer Science, and this is my personal blog.
+![Me in Granada in 2019](../images/brandonliu-about.jpg){: .img-right} I am a junior at Yale University studying Computer Science, and this is my personal blog.
 
-Some of my interests include points/miles travel, food/drink, personal finance, computing, and entrepreneurship — I write about these topics ocassionally (mostly computing).
+Some of my interests include points/miles travel, food/drink, personal finance, computing, and entrepreneurship — I write about these topics occasionally (mostly computing).
 
 Currently, I am a Research Assistant at the [Yale Efficient Computing Lab](http://yecl.org/) headed by Lin Zhong. Previously, I was the Restaurant Critic for the [Yale Daily News](https://yaledailynews.com/blog/author/brandonliu/) and covered New Haven food and drink with Kofi Ansong.
 
