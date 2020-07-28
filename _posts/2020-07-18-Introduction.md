@@ -5,7 +5,7 @@ categories: [Computing, Misc]
 updated_date: 
 ---
 
-This summer, I've had the pleasure of working as a Research Assistant to Prof. Lin Zhong and Jian Ding at the [Yale Efficient Computing Lab](http://yecl.org/). My project relates to wireless networks, and in particular, 5G and massive multiple-input multiple-output (MIMO). Massive MIMO involves using multiple antennas at the transmitter and reciever to improve throughput and spectral efficiency, and it's seen as a key technology enabling 5G mobile networks.<!--more-->
+This summer, I've had the pleasure of working as a Research Assistant to Prof. Lin Zhong and Jian Ding at the [Yale Efficient Computing Lab](http://yecl.org/). My project relates to wireless networks, and in particular, 5G and massive multiple-input multiple-output (MIMO). Massive MIMO involves using multiple antennas at the transmitter and receiver to improve throughput and spectral efficiency, and it's seen as a key technology enabling 5G mobile networks.<!--more-->
 
 For the last few years, Jian has been developing Millipede, a new software approach to real-time massive MIMO baseband processing. Massive MIMO baseband processing is computationally intensive and typically done by specialized hardware such as [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array). Because FPGAs are installed per base station, updating the technology (say, for the transition from LTE to 5G) currently involves going to each network tower and physically replacing hardware — an expensive and slow process.
 
@@ -18,7 +18,7 @@ I hope to write about some of the key topics I've learned in a way that's intere
 ## Planned posts
 
 - Basic Linear Algebra Subprograms (BLAS) (i.e. Intel MKL, OpenBlas, and wrappers like Armadillo, Eigen, and Numpy)
-- Data paralellization / Single Intruction Multiple Data (SIMD)
+- Data parallelization / Single Instruction Multiple Data (SIMD)
 - Programming with Intel Intrinsics
 - Intel MKL's JIT cgemm implementation (For matrix-vector product)
 - Just-in-Time (JIT) compilation / Tutorial of the [Xbyak](https://github.com/herumi/xbyak) JIT assembler

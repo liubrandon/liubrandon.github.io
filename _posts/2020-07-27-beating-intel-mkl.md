@@ -8,7 +8,7 @@ The bulk of my research this summer centered around designing and implementing a
 
 ## Intel MKL Background
 
-I thought it would be helpful to first go over some high-level knowledge about Intel MKL and in paricular, BLAS, that I would have found useful when starting out (being totally new to the library). Also, I'll simply refer to Intel MKL as MKL from now on.
+I thought it would be helpful to first go over some high-level knowledge about Intel MKL and in particular, BLAS, that I would have found useful when starting out (being totally new to the library). Also, I'll simply refer to Intel MKL as MKL from now on.
 
 * MKL is a free library that provides optimized math routines (functions) for BLAS, LAPACK, ScaLAPACK, sparse solvers, fast Fourier transforms, and other problems.
 
@@ -23,6 +23,5 @@ I thought it would be helpful to first go over some high-level knowledge about I
   * `cgemm()` -> matrix-matrix product with single-precision float complex data  
 &nbsp;
 * Using MKL BLAS routines directly can feel a bit unwieldy, but MKL can be linked to higher level libraries such as Armadillo (C++), Eigen (C++), and numpy-mkl (Python) which wrap its functions in more modern, templated syntax.
-
 
 To be continued...
