@@ -28,22 +28,10 @@ share-widget div {
     margin-bottom: 10px
 }
 
-// .apple share-widget div {
-//     background-image: url(../images/share-apple.svg)
-// }
-
 share-widget button {
     width: 100px;
     height: 90px;
     margin: 0;
-    @include mobile {
-        width: 80px;
-        height: 72px;
-    }
-}
-
-share-widget button:active {
-    transform: scale(1.2)
 }
 
 button {
@@ -64,6 +52,10 @@ button {
     @include mobile {
         font-size: 16px;
     }
+}
+
+button:active {
+    transform: scale(1.2)
 }
 
 button:hover {
