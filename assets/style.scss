@@ -192,7 +192,7 @@ span[data-pullquote]:before {
   text-decoration: none !important;
 }
 
-.homepage-titles:hover, .homepage-titles:active {
+.homepage-titles:hover > a, .homepage-titles:active > a {
   text-decoration: none !important;
   color: $blue !important;
 }
@@ -1143,4 +1143,4 @@ Modules - reusable parts of our design
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 @import "darcula";
-@import "svg-icons";
+@import "footer-icons";

@@ -29,5 +29,10 @@ layout: default
   </div>
   {% include disqus.html %}
   <!-- class is the date which is used as the post ID in firebase -->
-  <share-widget><button id="shareButton" href="{{site.url}}{{page.url | remove_first: "/"}}" class="{{page.date | date: "%Y-%m-%d"}}" onclick="clap(this)" aria-label="Share"><div></div><b id="counter"></b></button></share-widget>
+  <share-widget>
+    <button id="shareButton" href="{{site.url}}{{page.url | remove_first: "/"}}" class="{{page.date | date: "%Y-%m-%d"}}" onclick="clap(this)" aria-label="Share">
+      <div class="share-icon">{{site.svg-icons.share-icon}}</div>
+      <b id="counter"></b>
+    </button>
+  </share-widget>
 </article>

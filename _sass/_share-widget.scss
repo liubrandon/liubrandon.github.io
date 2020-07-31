@@ -19,13 +19,14 @@ share-widget {
     bottom: 20px
 }
 
-share-widget div {
-    width: 100%;
+share-widget .share-icon svg {
+    width: 30px;
     height: 30px;
-    background-image: url(../images/share-apple.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 10px
+    fill: white;
+    // background-image: url(../images/share-apple.svg);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    margin-bottom: 5px;
 }
 
 share-widget button {
@@ -47,8 +48,9 @@ select+label {
 }
 
 button {
-    background: #f2f2f2;
-    color: #191919;
+    background: #5188b8;
+    color: #FFF;
+    overflow: visible;
     cursor: pointer;
     display: inline-block;
     padding: .75em 1.5em;
@@ -58,30 +60,8 @@ button {
     border-radius: 10px;
 }
 
-#counter {
-    font-size: 18px;
-    letter-spacing: .5px;
-    @include mobile {
-        font-size: 16px;
-    }
-}
-
-button {
-    overflow: visible
-}
-
 button:active {
     transform: scale(1.2)
-}
-
-// button:hover {
-//     background: #d9d9d9;
-//     color: #FFF
-// }
-
-button {
-    background: #5188b8;
-    color: #FFF
 }
 
 button:hover {
@@ -89,18 +69,23 @@ button:hover {
     color: #FFF
 }
 
-[type=button],
-button {
-    -webkit-appearance: button
+#counter {
+    font-size: 18px;
+    letter-spacing: .5px;
 }
 
-[type=button]::-moz-focus-inner,
-button::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-}
+// [type=button],
+// button {
+//     -webkit-appearance: button
+// }
 
-[type=button]:-moz-focusring,
-button:-moz-focusring {
-    outline: 1px dotted ButtonText
-}
+// [type=button]::-moz-focus-inner,
+// button::-moz-focus-inner {
+//     border-style: none;
+//     padding: 0
+// }
+
+// [type=button]:-moz-focusring,
+// button:-moz-focusring {
+//     outline: 1px dotted ButtonText
+// }
