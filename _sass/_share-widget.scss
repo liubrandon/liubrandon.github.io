@@ -35,19 +35,7 @@ share-widget button {
     margin: 0;
 }
 
-button,
-select {
-    border-radius: .3em;
-    max-width: 100%
-}
-
-button+label,
-label+*,
-select+label {
-    page-break-before: always
-}
-
-button {
+button:not([disabled]) {
     background: #5188b8;
     color: #FFF;
     overflow: visible;
@@ -64,7 +52,7 @@ button:active {
     transform: scale(1.2)
 }
 
-button:hover {
+button:not([disabled]):hover {
     background: $blue;
     color: #FFF
 }
@@ -74,18 +62,18 @@ button:hover {
     letter-spacing: .5px;
 }
 
-// [type=button],
-// button {
-//     -webkit-appearance: button
-// }
+[type=button],
+button {
+    -webkit-appearance: button
+}
 
-// [type=button]::-moz-focus-inner,
-// button::-moz-focus-inner {
-//     border-style: none;
-//     padding: 0
-// }
+[type=button]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
 
-// [type=button]:-moz-focusring,
-// button:-moz-focusring {
-//     outline: 1px dotted ButtonText
-// }
+[type=button]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
