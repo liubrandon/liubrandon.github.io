@@ -19,6 +19,10 @@ share-widget {
     bottom: 20px
 }
 
+share-widget button:active {
+    transform: scale(1.2)
+}
+
 share-widget .share-icon svg {
     width: 30px;
     height: 30px;
@@ -30,6 +34,11 @@ share-widget button {
     width: 100px;
     height: 90px;
     margin: 0;
+}
+
+button:not([disabled]):hover {
+    background: $blue;
+    color: #FFF
 }
 
 button:not([disabled]) {
@@ -45,19 +54,27 @@ button:not([disabled]) {
     border-radius: 10px;
 }
 
-share-widget button:active {
-    transform: scale(1.2)
-}
-
-button:not([disabled]):hover {
-    background: $blue;
-    color: #FFF
-}
-
 #counter {
     font-size: 18px;
     letter-spacing: .5px;
 }
+
+button,
+select {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    text-transform: none
+}
+
+button {
+    overflow: visible
+}
+
+select {
+    margin: 0
+}
+
 
 [type=button],
 button {
