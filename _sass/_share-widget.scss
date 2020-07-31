@@ -23,9 +23,6 @@ share-widget .share-icon svg {
     width: 30px;
     height: 30px;
     fill: white;
-    // background-image: url(../images/share-apple.svg);
-    // background-repeat: no-repeat;
-    // background-position: center;
     margin-bottom: 5px;
 }
 
@@ -48,7 +45,7 @@ button:not([disabled]) {
     border-radius: 10px;
 }
 
-button:active {
+share-widget button:active {
     transform: scale(1.2)
 }
 
