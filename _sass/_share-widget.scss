@@ -16,7 +16,11 @@ dialog {
 
 share-widget {
     right: 20px;
-    bottom: 20px
+    bottom: 20px;
+    @include mobile {
+        right: 10px;
+        bottom: 10px;
+    }
 }
 
 share-widget button:active {
@@ -55,7 +59,7 @@ button:not([disabled]) {
 }
 
 #counter {
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: .5px;
 }
 
@@ -74,7 +78,6 @@ button {
 select {
     margin: 0
 }
-
 
 [type=button],
 button {
