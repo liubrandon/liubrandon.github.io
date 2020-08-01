@@ -69,8 +69,8 @@ h2 {
 .post h1::before, .post h2::before, .post h3::before, .post h4::before, .post h5::before, .post h6::before {
   display: block; 
   content: " "; 
-  margin-top: -70px; 
-  height: 70px; 
+  margin-top: -60px; 
+  height: 60px; 
   visibility: hidden; 
   pointer-events: none;
 }
@@ -261,14 +261,14 @@ p > img {
 }
 
 // Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
-}
+// ::-moz-selection {
+//   color: $black;
+//   background: $lightGray;
+// }
+// ::selection {
+//   color: $black;
+//   background: $lightGray;
+// }
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
@@ -298,17 +298,16 @@ p > img {
   width: 100%;
   padding: 7px 0;
   height: 46px;
-  background: rgba(0,0,0,.85);
-  // border-bottom: 1px solid $lightGray;
+  background: rgba(0,0,0,0.85);
   @include mobile {
     padding: 1.4px 0;
     height: 37px;
-    //text-align: center;
   }
 }
 
 #reading-progress {
   z-index: 0;
+  opacity: 1 !important;
   background-color: $blue;
   width: 100vw;
   position: absolute;
@@ -419,7 +418,7 @@ nav {
 }
 
 .wrapper-main {
-  padding-top: 110px;
+  padding-top: 90px;
   padding-bottom: 134px;
   @include mobile {
     padding-top: 65px !important;
