@@ -51,7 +51,10 @@ share-widget button {
 
 button:not([disabled]):hover {
     background: $blue;
-    color: #FFF
+    color: #FFF;
+    @include mobile {
+        background: #5188b8 !important;
+    }
 }
 
 button:not([disabled]) {
