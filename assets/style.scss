@@ -336,7 +336,7 @@ p > img {
   margin-top: -2px;
   display: inline-block;
   @include mobile {
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: 300 !important;
     padding-left: 18px;
   }
@@ -360,7 +360,7 @@ nav {
     color: $white;
     text-align: right;
     font-weight: 410;
-    letter-spacing: .35px;
+    letter-spacing: .5px;
 
     @include mobile {
       margin-left: 15px;

@@ -12,6 +12,9 @@ dialog {
     border: 0px;
     border-radius: 5px;
     background-color: #99dd99;
+    @include mobile {
+        transform: scale(.9);
+    }
 }
 
 share-widget {
