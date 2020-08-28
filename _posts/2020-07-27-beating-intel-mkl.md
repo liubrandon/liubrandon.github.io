@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To beat Intel MKL: finding Intel's 'secret sauce'"
+title: "How I sped up complex matrix-vector multiplication: finding Intel's 'secret sauce'"
 categories: [Computing]
 updated_date: 
 ---
@@ -24,4 +24,8 @@ I thought it would be helpful to first go over some high-level info about Intel 
 &nbsp;
 * Using MKL BLAS routines directly can feel a bit unwieldy, but MKL can be linked to higher level libraries such as Armadillo (C++), Eigen (C++), and numpy-mkl (Python) which wrap its functions in more modern, templated syntax.
 
+YECL Final Presentation Slides
+
 To be continued...
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mqsatU9pJgKpHi" width="730" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/BrandonLiu11/how-i-sped-up-complex-matrixvector-multiplication-finding-intel-mkls-s" target="_blank"></a></strong> </div>
