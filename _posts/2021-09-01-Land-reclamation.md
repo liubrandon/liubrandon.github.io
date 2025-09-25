@@ -58,7 +58,7 @@ As much as the Singapore story of land reclamation is about nation-building, it 
 
 Historically, imported sand for land reclamation reportedly came at a premium of three to four times the cost of using local fill materials.⁶⁰ So, as the price of raw materials rises, so does inflation of reclamation and construction costs, and ultimately prices of the HDB flats built on the land.⁶¹ Reducing reliance on imported sand thus reduces these costs and consequently has been a constant pressure for innovation in the development of reclamation materials and technologies in Singapore. In 1985, a Straits Times touted National University of Singapore (NUS) researchers' breakthrough that could cut reclamation costs by 10 to 50 percent, and today, the government continues to invest heavily in ideas to reduce sand usage when creating land, with a S$135 million in recent funding to help researchers get there.⁶² By 2030, the Ministry of National Development projects 3,770 additional hectares of land will be required to support the growing population.⁶³
 
-[Download the PDF](/assets/pdfs/Land-reclamation.pdf)
+[Download the PDF](/assets/pdfs/singapore-land-reclamation.pdf)
 
 ## References
 
