@@ -125,4 +125,4 @@ Historically, imported sand for land reclamation reportedly came at a premium of
 ⁶¹ "Cost of Living," Singapore Monitor, July 8, 1984, https://eresources.nlb.gov.sg/newspapers/Digitised/Article/singmonitor19840709-1.2.5.14.
 ⁶² "Breakthrough in land reclamation work," The Straits Times, 1985. "Land & Liveability National Innovation Challenge," National Research Foundation: Prime Minister's Office Singapore, February 20, 2021, https://www.nrf.gov.sg/programmes/national-innovation-challenges/land-liveability-national-innovation-challenge.
 ⁶³ "A High Quality Living Environment for all Singaporeans: Land Use Plan to Support Singapore's Future Population," Ministry of National Development, January 2013, https://www.mnd.gov.sg/docs/default-source/mnd-documents/publications-documents/land-use-plan.pdf.
-⁶⁴ "Total Land Area," Department of Statistics Singapore, February 15, 2021, https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=12041.
+⁶⁴ "Total Land Area," Department of Statistics Singapore, February 15, 2021.
