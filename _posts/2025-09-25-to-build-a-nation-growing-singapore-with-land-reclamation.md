@@ -6,14 +6,13 @@ date: 2025-09-25
 categories: [History, Urban Planning, Singapore]
 ---
 
-## Abstract
-The island of Singapore has grown significantly through the use of land reclamation, with its landmass expanding nearly 25% since Sir Stamford Raffles arrived in 1822. British colonizers of Singapore reclaimed land with relatively limited scope — to recreate the physical environment and to maintain colonial order. In post-colonial Singapore, the People's Action Party has deployed land reclamation on a massive scale — creating public housing, promoting industry, facilitating maritime trade — and in the process, becoming one of the most livable cities in the world. Led by Singapore's founding father, Lee Kuan Yew, land reclamation is closely tied to national ambition. Recent history of land reclamation in Singapore has been distinctly state-driven, and its physical transformation highlights the tensions between environmental degradation and uplifting of the masses.
-
-<!--more-->
-
 > "A city is an environment made by the people to provide whatever is necessary for their varied activities. It may develop in two ways: either by integration with the natural environment or by expansion into and destruction of, the natural environment."
 >
 > — Tai Ching Ling and Peter S.J. Chen, 1977. *Life and Living Environment in Kampongs and HDB Public Housing Estates in Singapore*
+
+<!--more-->
+
+The island of Singapore has grown significantly through the use of land reclamation, with its landmass expanding nearly 25% since Sir Stamford Raffles arrived in 1822. British colonizers of Singapore reclaimed land with relatively limited scope — to recreate the physical environment and to maintain colonial order. In post-colonial Singapore, the People's Action Party has deployed land reclamation on a massive scale — creating public housing, promoting industry, facilitating maritime trade — and in the process, becoming one of the most livable cities in the world. Led by Singapore's founding father, Lee Kuan Yew, land reclamation is closely tied to national ambition. Recent history of land reclamation in Singapore has been distinctly state-driven, and its physical transformation highlights the tensions between environmental degradation and uplifting of the masses.
 
 ## Introduction
 
