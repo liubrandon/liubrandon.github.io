@@ -6,17 +6,6 @@ date: 2025-09-25
 categories: [History, Urban Planning, Singapore]
 ---
 
-_Brandon Liu_
-_Department of History, Yale University_
-_Yale Undergraduate Research Journal • Volume 2.2 • Fall 2021_
-
-<br>
-
-Here is the embedded PDF of the article:
-<embed src="/assets/pdfs/singapore-land-reclamation.pdf" type="application/pdf" width="100%" height="800px" />
-
-<br>
-
 > ## Abstract
 > The island of Singapore has grown significantly through the use of land reclamation, with its landmass expanding nearly 25% since Sir Stamford Raffles arrived in 1822. British colonizers of Singapore reclaimed land with relatively limited scope — to recreate the physical environment and to maintain colonial order. In post-colonial Singapore, the People's Action Party has deployed land reclamation on a massive scale — creating public housing, promoting industry, facilitating maritime trade — and in the process, becoming one of the most livable cities in the world. Led by Singapore's founding father, Lee Kuan Yew, land reclamation is closely tied to national ambition. Recent history of land reclamation in Singapore has been distinctly state-driven, and its physical transformation highlights the tensions between environmental degradation and uplifting of the masses.
 
@@ -116,6 +105,10 @@ Like many other Asian nations during the "Great Acceleration," modern Singapore 
 With Singapore's wealth and its capacity to grow and protect itself, what does equity look like, particularly in the age of global climate change? If only "some islands will rise" — as Matthew Schneider-Mayerson has noted — what is Singapore's role as its drastically poorer or less prepared peers face similar threats?[^64] In simplest terms, it's still not clear whether a ceaselessly expanding Singapore is sustainable.
 
 Perhaps this question has already been answered; at a bare minimum, there are clear harms to the welfare of those in reclamation's path, both at home and abroad. However, the story of land reclamation in Singapore is unique in that it challenges the typical narrative of environmental degradation — that it is driven by greed and profit for the few. Instead, given Singapore's will and capacity for environmental pragmatism to uplift the masses, precisely how the state will navigate the real trade-offs presented by land reclamation is a question worth asking as the island continues to grow.
+
+<br>
+<embed src="/assets/pdfs/singapore-land-reclamation.pdf" type="application/pdf" width="100%" height="800px" />
+<br>
 
 ## References
 
