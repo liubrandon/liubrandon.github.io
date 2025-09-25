@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<script async="" defer="" src="/scripts/main.js"></script>
-<dialog id=message></dialog> 
 <article class="post detailed">
   <h1 style="text-align:left">{{ page.title }}</h1>
 
@@ -28,9 +26,4 @@ layout: default
     {{ content }}
   </div>
   {% include disqus.html %}
-  <share-widget>
-    <button id="shareButton" tabindex=0 ontouchstart="" href="{{site.url}}{{page.url | remove_first: "/"}}" onclick="clap(this)" aria-label="Share">
-      <div class="share-icon">{{site.svg-icons.share-icon}}</div>
-    </button>
-  </share-widget>
 </article>
