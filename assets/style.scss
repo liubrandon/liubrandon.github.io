@@ -303,7 +303,7 @@ p > img {
   padding: 7px 0;
   padding-top: calc(7px + env(safe-area-inset-top));
   height: 46px;
-  background: rgba(0,0,0,0.85);
+  background: rgba(255,255,255,0.9);
   @include mobile {
     padding: 1.4px 0;
     height: 37px;
@@ -329,7 +329,7 @@ p > img {
   position: relative;
   z-index: 1;
   margin: 0;
-  color: $white;
+  color: $black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -361,7 +361,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $black;
     text-align: right;
     font-weight: 410;
     letter-spacing: .5px;
