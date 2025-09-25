@@ -1089,6 +1089,16 @@ Modules - reusable parts of our design
   }
 }
 
+/* Footnote Styles */
+.post a[href^="#fn:"] {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnotes [id^="fn:"] {
+  scroll-margin-top: 90px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
