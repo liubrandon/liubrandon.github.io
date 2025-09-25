@@ -1,23 +1,5 @@
-// .on() constantly polls the Firebase database for the most current share count
-// Then updates the number on the webpage upon a change to reflect that latest value
+// Share button setup
 var shareButton = document.getElementById("shareButton");
-var postRef = firebase.database().ref("posts/" + shareButton.className);
-postRef.on('value', function(snapshot){
-  shareButton.querySelector("b").textContent = snapshot.val().shareCount;
-});
-
-// Uses post date as the post id. Assumes I'll never post two posts on the same day
-function incrementShareCount(pagedate) {
-  var postRef = firebase.database().ref("posts/" + pagedate);
-  postRef.transaction(function(post) {
-    if(post == null) {
-      return {shareCount: 0};
-    } else {
-      post.shareCount++;
-      return post;
-    }
-  });
-}
 
 // Share function and reading indicator code from Malte Ubl https://www.industrialempathy.com/js/main.js?hash=d0a56587b8
 function tweet(url) {
@@ -43,9 +25,6 @@ function share(anchor) {
 }
 
 function clap(button) {
-  button.querySelector("b").textContent =
-    parseInt(button.querySelector("b").textContent, 10) + 1;
-  incrementShareCount(button.className);
   share(button);
 }
 
