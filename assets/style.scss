@@ -1099,6 +1099,10 @@ Modules - reusable parts of our design
   scroll-margin-top: 90px;
 }
 
+[id^="fnref:"] {
+  scroll-margin-top: 90px; /* Same height as the header */
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
