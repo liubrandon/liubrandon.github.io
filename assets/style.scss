@@ -25,9 +25,9 @@ html {
 }
 
 body {
-  background: #fff;
+  background: $black;
   font-family: $helveticaNeue;
-  color: #404040;
+  color: $darkGray;
   line-height: 1.7;
   font-weight: 400;
   font-size: 18px;
@@ -96,7 +96,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #222;
+  color: $darkerGray;
 }
 
 p {
@@ -108,26 +108,26 @@ table {
 }
 
 table tr {
-	border-top: 1px solid #cccccc;
-	background-color: white;
+	border-top: 1px solid $lightGray;
+	background-color: $black;
 	margin: 0;
 	padding: 0;
 }
 
 table tr:nth-child(2n) {
-	background-color: #f8f8f8;
+	background-color: #1a1a1a;
 }
 
 table tr th {
 	font-weight: bold;
-	border: 1px solid #cccccc;
+	border: 1px solid $lightGray;
 	text-align: left;
 	margin: 0;
 	padding: 6px 13px;
 }
 
 table tr td {
-	border: 1px solid #cccccc;
+	border: 1px solid $lightGray;
 	text-align: left;
 	margin: 0;
 	padding: 6px 13px;
@@ -159,11 +159,11 @@ table tr td :last-child {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid $lightGray;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
-  background-color: #fff3ff;
+  background-color: #333;
 }
 
 .share-box {
@@ -187,7 +187,7 @@ span[data-pullquote]:before {
   padding: 0 -5% 0 0;
   font-size: 1.3em;
   font-style: italic;
-  color: green;
+  color: #a5d6a7;
   text-align: center;
 }
 
@@ -391,20 +391,20 @@ nav {
     margin: 1.8em .8em;
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
-    color: $gray;
+    color: $darkGray;
     font-size: 22px;
     font-style: italic;
-    background-color: #ede1ff;
+    background-color: #333;
   }
 
   .you-may-like{
     margin: 1.8em .8em;
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
-    color: $gray;
+    color: $darkGray;
     font-size: 22px;
     font-style: italic;
-    background-color: #ddffb5;;
+    background-color: #333;
   }
 
   .comments {
@@ -435,7 +435,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: 70px;
-  background-color: $lightGray;
+  background-color: $black;
 }
 
 footer {
@@ -530,7 +530,7 @@ Modules - reusable parts of our design
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #333;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -577,7 +577,7 @@ Modules - reusable parts of our design
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #121212, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -605,17 +605,17 @@ Modules - reusable parts of our design
     height: 32px;
     font-size: 14px;
     font-weight: 500;
-    color: rgba(0,0,0,.6);
+    color: $darkerGray;
     line-height: 32px;
     padding: 0 12px;
     border-radius: 16px;
-    background-color: #e4e4e4;
+    background-color: #333;
     margin-bottom: 5px;
     margin-right: 5px;
 }
 
 .yellow.lighten-2 {
-    background-color: #efd3f9 !important;
+    background-color: #333 !important;
 }
 
 #gh-latest{
@@ -624,9 +624,9 @@ Modules - reusable parts of our design
 }
 
 .text-link {
-    color: #000;
+    color: $darkerGray;
     text-decoration: none;
-    border-bottom: 1px dotted #000;
+    border-bottom: 1px dotted $darkerGray;
 }
 
 //carbon ads
@@ -642,8 +642,8 @@ Modules - reusable parts of our design
   max-width: 270px;
   border-radius: 4px;
   text-align: center;
-  border: dashed 1px #e6e6e6;
-  background-color: hsl(0, 0%, 98%);
+  border: dashed 1px $lightGray;
+  background-color: $black;
   font-size: var(--font-size);
   line-height: 1.5;
   width: 100%;
@@ -716,17 +716,17 @@ Modules - reusable parts of our design
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #eee;
+  border: 1px solid $lightGray;
   margin-left: -2px;
   margin-right: -2px;
-  background-color: #ffffff;
+  background-color: $black;
   display: inline-block;
 }
 
 .pagination a {    
   &:hover {
-      background-color: #f1f1f1;
-      color: #333;
+      background-color: #333;
+      color: $white;
   }
 }
 
@@ -774,15 +774,15 @@ Modules - reusable parts of our design
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid $lightGray;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .subscribeBtn {
   width: 30%;
-  background-color: #4CAF50;
-  color: white;
+  background-color: $blue;
+  color: $white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -792,10 +792,10 @@ Modules - reusable parts of our design
 }
 
 .tinyletterForm {
-  border: 1px solid #ccc;
+  border: 1px solid $lightGray;
   padding: 3px;
   text-align: center;
-  background: #ececec;
+  background: #333;
   margin: 8px;
   border-radius: 5px;
 }
@@ -803,7 +803,7 @@ Modules - reusable parts of our design
 .btn-subscribe {
   line-height: 20px;
   text-decoration: none;
-  background: #00000015;
+  background: #333;
   border: none;
   font-size: 12px;
   padding: 0px 7px;
@@ -812,11 +812,11 @@ Modules - reusable parts of our design
   position: relative;
   top: -1px;
   margin-left: 5px;
-  color: black;
+  color: $white;
 }
 
 .btn-subscribe:hover {
-  color: black;
+  color: $white;
 }
 
 .btn-subscribe > svg {
@@ -909,10 +909,10 @@ Modules - reusable parts of our design
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #e9f0f5;
+  background: #333;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0 3px 0 #212121;
 }
 .cd-timeline-content:after {
   content: "";
@@ -920,7 +920,7 @@ Modules - reusable parts of our design
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: $darkerGray;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
@@ -936,12 +936,12 @@ Modules - reusable parts of our design
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
+  background: $blue;
+  color: $white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: $blue;
 }
 .cd-timeline-content .cd-date {
   float: left;
@@ -956,7 +956,7 @@ Modules - reusable parts of our design
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid #333;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -982,7 +982,7 @@ Modules - reusable parts of our design
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #333;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -1003,7 +1003,7 @@ Modules - reusable parts of our design
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #333;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
