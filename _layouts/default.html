@@ -12,7 +12,6 @@
 
   <meta name="theme-color" content="#000000">
   <link rel="icon" type="image/png" sizes="256x256" href="../images/favicon-256x256.png">
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1060eb245e99051a3ac245799/2518d5f5e3335976aaccee845.js");</script>
   <!-- {% include analytics.html %} -->
 </head>
 
@@ -25,18 +24,10 @@
           <h1 class="site-name"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a><span id="subscribeButton">Subscribe</span></a>
           </nav>
           <div id="reading-progress" aria-hidden="false" style="transform: translate(-100vw);"></div>
         </div>
       </header>
-    </div>
-    <div id="subscribeModal" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            {% include mailchimp.html %}
-        </div>
     </div>
 
     <div class="wrapper-main">
@@ -52,7 +43,6 @@
         </footer>
       </div>
     </div>
-    <script src="/scripts/mailchimp-modal.js"></script>
   </div>
 
 </body>
